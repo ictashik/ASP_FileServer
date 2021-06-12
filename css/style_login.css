@@ -1,0 +1,387 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.main-bg-1 {
+    width: 100%;
+    float: left;
+    position: absolute;
+    background-image: url(/img/login_main_bg.png);
+    height: 100%;
+    background-size: cover;
+    display: table;
+    background-position: center;
+}
+
+.main-div {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.mleft-text {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.main-left-text-div {
+    display: table;
+    height: 300px;
+}
+/*.right-login-div{width:100%;
+				float:left;
+				position:relative;
+				background-image:url(../images/login_bg.png);
+				background-size:cover;}		 */
+
+.right-login-div {
+    width: 88%;
+    float: right;
+    border-radius: 22px;
+    box-shadow: 0px 9px 26px 0px rgba(0, 0, 0, 0.58);
+    background-color: #fff;
+    background-image: url(/data/img/bg-2.PNG);
+    background-position: right;
+    background-size: 100% 100%;
+    padding: 23px 0;
+}
+
+.login-text-div {
+    border-radius: 20px;
+    width: 74%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+    border-color: #0074AC !important;
+    /*border-color: rgba(140, 198, 63, 0.62) !important;*/
+    box-shadow: none;
+    padding: 20px;
+}
+
+.login-text-div-failure {
+    border-radius: 20px;
+    width: 74%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-color: red !important;
+    box-shadow: none;
+    padding: 20px;
+}
+
+.login-btn-div {
+    background-color: #0074AC;
+    padding: 10px 10px;
+    color: #fff;
+    border-radius: 25px;
+    width: 72%;
+}
+
+.forgot-text-style {
+    text-align: center;
+    color: #333;
+}
+
+.welcome-text-1 {
+    font-size: 52px;
+    color: #0074AC;
+    font-weight: 300;
+    line-height: 0;
+}
+
+.welcome-text-2 {
+    font-size: 75px;
+    color: #B9CBEA;
+    font-weight: bold;
+    padding-top: 0px;
+    position: relative;
+    float: left;
+}
+
+.welcome-text-3 {
+    font-size: 29px;
+    color: #0074AC;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.text-footer {
+    color: #666666;
+    font-size: 12px;
+}
+
+
+.text-design-3 {
+    color: #0074AC;
+    font-weight: normal;
+}
+
+
+.footer-div-style {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 65px;
+}
+
+
+.footer-div-style2 {
+    width: 100%;
+    float: left;
+    position: relative;
+    top: 122px;
+}
+
+.left-text-div {
+    float: left;
+    position: relative;
+    width: 100%;
+    top: 110px;
+}
+
+.main-bg-2 {
+    width: 100%;
+    float: left;
+    position: absolute;
+    background-image: url(../img/ProductSFileServer.png);
+    height: 100%;
+    background-size: cover;
+    display: table;
+    background-position: center;
+}
+
+.list-div-text1 {
+    font-size: 37px;
+    color: #030f85;
+}
+
+.list-div-text2 {
+    color: #00b2e0;
+}
+
+.list-div-text3 {
+    font-size: 28px;
+    color: #00b2e0;
+    font-weight: 300;
+}
+
+.list-serv-img {
+    float: left;
+    width: 100%;
+    margin: 24px;
+}
+
+.text-footer2 {
+    color: #000;
+    font-size: 12px;
+}
+
+.right-serv-img {
+    position: relative;
+    float: left;
+    top: 157px;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer-div-style {
+        top: 40px;
+    }
+
+
+    .footer-div-style2 {
+        top: 40px;
+    }
+
+    .right-serv-img {
+        top: 171px;
+    }
+
+    .right-login-div {
+        width: 100%;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .left-text-div {
+        top: 0;
+    }
+
+    .welcome-text-2 {
+        padding-top: 0px;
+    }
+
+    .footer-div-style {
+        top: 0;
+    }
+
+    .footer-div-style2 {
+        top: 0;
+    }
+
+
+    .right-serv-img {
+        top: 0px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .left-text-div {
+        top: 0;
+    }
+
+    .welcome-text-2 {
+        padding-top: 0px;
+    }
+
+    .footer-div-style {
+        top: 0;
+    }
+
+
+    .footer-div-style2 {
+        top: 0;
+    }
+
+    .right-serv-img {
+        top: 0px;
+    }
+
+    .right-login-div {
+        width: 100%;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .welcome-text-1 {
+        font-size: 40px;
+    }
+
+    .welcome-text-3 {
+        font-size: 20px;
+    }
+
+    .welcome-text-2 {
+        padding-top: 0px;
+    }
+
+    .main-left-text-div {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .right-login-div {
+        margin-top: 25px;
+    }
+
+    .left-text-div {
+        top: 0;
+    }
+
+    .footer-div-style {
+        top: 0;
+    }
+
+    .footer-div-style2 {
+        top: 0;
+    }
+
+    .list-div-text1 {
+        font-size: 34px;
+    }
+
+    .list-div-text3 {
+        font-size: 25px;
+    }
+
+    .list-serv-img {
+        margin: 0;
+    }
+
+    .right-serv-img {
+        width: 100%;
+    }
+
+    .right-login-div {
+        width: 100%;
+    }
+
+    .welcome-text-1 {
+        width: 100%;
+    }
+
+    .welcome-text-2 {
+        width: 100%;
+    }
+
+    .welcome-text-3 {
+        width: 100%;
+    }
+
+    .list-serv-img {
+        float: none;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+    .welcome-text-1 {
+        font-size: 30px;
+    }
+
+    .welcome-text-3 {
+        font-size: 15px;
+    }
+
+    .left-text-div {
+        top: 0;
+    }
+
+    .welcome-text-2 {
+        padding-top: 0px;
+        font-size: 40px;
+    }
+
+    .footer-div-style {
+        top: 0;
+    }
+
+    .footer-div-style2 {
+        top: 0;
+    }
+
+    .list-div-text1 {
+        font-size: 25px;
+    }
+
+    .list-div-text3 {
+        font-size: 19px;
+    }
+
+    .list-serv-img {
+        margin: 0;
+    }
+
+    .right-serv-img {
+        width: 100%;
+    }
+
+    .right-login-div {
+        width: 100%;
+    }
+}
